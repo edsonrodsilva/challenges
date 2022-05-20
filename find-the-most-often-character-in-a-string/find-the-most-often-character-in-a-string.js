@@ -5,6 +5,8 @@ function getMaxCharacter(sentence) {
   //remove space in string
   sentence = sentence.replaceAll(" ", "");
 
+  
+
   //convert string in array de caracters
   const chars = sentence.split("");
 
